@@ -23,7 +23,7 @@ export default function List() {
                 data: doc.data(),
                 id: doc.id(),
             }))
-            setMovies(movs)
+            setMovies(movies)
 
         }).catch(error => console.log(error.message))
     }
