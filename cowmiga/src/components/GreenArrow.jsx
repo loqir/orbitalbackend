@@ -6,7 +6,7 @@ const GreenArrow  = () => {
 
     return (
         <div>
-            <img src={greenup}/>
+            <img src={greenup} alt = "NaN"/>
         </div>
     )
 }
