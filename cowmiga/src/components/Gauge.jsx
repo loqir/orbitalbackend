@@ -45,7 +45,7 @@ const Gauge = (props, {
     return (
         <div
             style={{
-                textAlign: "center",
+                textAlign: "center"
             }}>
             <svg style={{ overflow: "visible" }}
                 width="9em"
