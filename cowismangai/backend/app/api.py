@@ -116,7 +116,7 @@ def predict(stock):
     full_predictors = predictors + ["weekly_mean", "quarterly_mean", "annual_mean", "annual_weekly_mean", "annual_quarterly_mean", "open_close_ratio",
                                     "high_close_ratio", "low_close_ratio"]
 
-    def backtest(new, model, full_predictors, start=1000, step=750):
+    def backtest(new, model, full_predictors, start=1000, step=500):
         predictions = []
         for i in range(start, new.shape[0], step):
 
